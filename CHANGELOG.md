@@ -4,11 +4,13 @@ we use SemVer (`Major.Minor.Patch`)
 
 ## v0.1.0
 
-* [ ] Port mio basic interface over
+* [ ] Port mio over
+* [ ] Linting and autoformatting
 * [ ] Add logging using reckless
 * [ ] PCI driver Userspace interface
 * [ ] Generic Virtio device libraries using PCI
 * [ ] Virtio console userspace driver proof of concept
+* [ ] CI/CD w/ GitHub actions
 * [ ] Documentation setup
   * [ ] Writeup README
 * [ ] Unit/Integration Tests

@@ -15,7 +15,7 @@
 
 using namespace std;
 
-namespace nfs {
+namespace usnet {
 namespace pci {
 
 struct config_header {
@@ -80,4 +80,4 @@ struct device {
 };
 
 } // namespace pci
-} // namespace nfs
+} // namespace usnet

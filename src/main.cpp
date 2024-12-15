@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     }
     std::cout << argc << " " << argv[1] << std::endl;
 
-    nfs::pci::device dev(argv[1]);
+    usnet::pci::device dev(argv[1]);
 
     return 0;
 }

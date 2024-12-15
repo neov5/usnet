@@ -13,7 +13,7 @@
 #include <cstdio>
 #include <sys/stat.h>
 
-namespace nfs {
+namespace usnet {
 namespace pci {
 
 config::config(std::filesystem::path config_path): capabilities{} {
@@ -82,4 +82,4 @@ void device::remove_driver() {
 }
 
 } // namespace pci
-} // namespace nfs
+} // namespace usnet

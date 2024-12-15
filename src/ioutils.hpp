@@ -6,7 +6,7 @@
 #include <fstream>
 #include <cinttypes>
 
-namespace nfs {
+namespace usnet {
 namespace ioutils {
 
 inline uint8_t  read_byte(std::ifstream& in);
@@ -38,4 +38,4 @@ constexpr uint64_t from_le64(uint64_t value);
 
 
 } // namespace ioutils
-} // namespace nfs
+} // namespace usnet

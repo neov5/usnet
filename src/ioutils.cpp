@@ -4,7 +4,7 @@
 #include "ioutils.hpp"
 #include <bit>
 
-namespace nfs {
+namespace usnet {
 namespace ioutils {
 
 inline uint8_t read_byte(std::ifstream& in) {
@@ -79,4 +79,4 @@ constexpr uint32_t from_le32(uint32_t val) { return to_le32(val); }
 constexpr uint64_t from_le64(uint64_t val) { return to_le64(val); }
 
 } // namespace ioutils
-} // namespace nfs
+} // namespace usnet
